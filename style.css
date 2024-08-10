@@ -63,6 +63,7 @@ h1{
 #search-result a{
     text-decoration: none;
     padding-left: 3px;
+    text-transform: capitalize;
 }
 
 
@@ -70,6 +71,21 @@ h1{
     height: 40vh;
     width:300px
     
+}
+
+
+#show-more-btn{
+
+    background-color: rgb(102, 202, 202);
+    font-size: 15px;
+    border:none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px 560px;
+    display:none;
+
 }
 
 
@@ -100,7 +116,7 @@ h1{
     }
 
     #search-input, #search-button {
-        width: 100%;
+        width: 45%;
         margin: 5px 0;
     }
 
